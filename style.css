@@ -28,7 +28,7 @@ body {
   color: white;
 }
 
-#menu {
+#welcome {
   background-image: linear-gradient(
     to right bottom,
     #47c1bf,
@@ -49,10 +49,143 @@ body {
   color: white;
   text-align: center;
 }
-#nameDiv {
-  margin-top: 140px;
+#welcomeName {
+  margin-top: 100px;
+  border-bottom: solid 2px white;
+  width: 400px;
+}
+#welcomeText {
+  margin-top: 30px;
+}
+#about {
+  height: 500px;
+}
+#aboutPicture {
+  background-color: #ddd;
+}
+#mePicture {
+  width: 350px;
+  border-radius: 50%;
+  border: solid white 5px;
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+}
+#aboutTitle {
+  color: #5a5a5a;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-bottom: 2px solid #5a5a5a;
+}
+#aboutP {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#projects {
+  background-image: linear-gradient(
+    to left top,
+    #47c1bf,
+    #26b7c8,
+    #14abce,
+    #2b9ed0,
+    #4990cd,
+    #4e81c2,
+    #5372b5,
+    #5863a7
+  );
+
+  height: 500px;
+  color: white;
+}
+#projectsTitle {
+  text-align: center;
+  margin-top: 30px;
   border-bottom: solid 2px white;
 }
+#pr1 {
+  /* border: white 2px solid; */
+  margin-top: 50px;
+  padding: 20px;
+  display: inline;
+}
+#pr1text {
+  display: inline;
+  position: absolute;
+  margin-left: 8px;
+}
+#pr1Img {
+  width: 240px;
+  border: 2px solid white;
+}
+#pr2 {
+  /* border: white 2px solid; */
+  margin-top: 50px;
+  padding: 20px;
+  display: inline;
+  border-left: 0;
+}
+#pr2text {
+  display: inline;
+  position: absolute;
+  margin-left: 8px;
+}
+#pr2Img {
+  width: 240px;
+  height: 240px;
+  border: 2px solid white;
+}
+#link {
+  color: white;
+}
+#contact {
+  height: 500px;
+}
+#contactText {
+  background-color: white;
+  height: 500px;
+}
+#contactForm {
+  background-color: #ddd;
+  height: 500px;
+}
+#formDiv {
+  margin-top: 60px;
+}
+#btnSubmit {
+  border: solid 1px #5a5a5a;
+}
+#btnSubmit:hover {
+  background-color: #5a5a5a;
+  color: #ddd;
+}
+#txtMessage,
+#txtName,
+#txtEmail {
+  border: solid 1px #5a5a5a;
+}
+#contactTitle {
+  color: #5a5a5a;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-bottom: 2px solid #5a5a5a;
+}
+#contacttP {
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
-
-
+#footer {
+  background-image: linear-gradient(
+    to right bottom,
+    #2b9ed0,
+    #4990cd,
+    #4e81c2,
+    #5372b5,
+    #5863a7,
+    #495295,
+    #3a4183,
+    #2b3171,
+    #1c2260
+  );
+  height: 80px;
+}
