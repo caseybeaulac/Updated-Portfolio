@@ -169,7 +169,7 @@ body {
   margin-left: 30px;
   border-bottom: 2px solid #5a5a5a;
 }
-#contacttP {
+#contactP {
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -188,4 +188,11 @@ body {
     #1c2260
   );
   height: 80px;
+}
+#icons {
+  margin-top: 26px;
+  text-align: center;
+}
+#i1 {
+  padding-right: 10px;
 }
