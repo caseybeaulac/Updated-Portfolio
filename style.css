@@ -1,6 +1,7 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: "Abel", sans-serif;
+  width: 100%;
 }
 #nav {
   background-color: white;
@@ -58,18 +59,18 @@ body {
   margin-top: 30px;
 }
 #about {
-  height: 500px;
+  height: 100%;
 }
 #aboutPicture {
   background-color: #ddd;
 }
 #mePicture {
-  width: 350px;
+  width: 300px;
   border-radius: 50%;
   border: solid white 5px;
   display: block;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 43px;
 }
 #aboutTitle {
   color: #5a5a5a;
@@ -94,12 +95,13 @@ body {
     #5863a7
   );
 
-  height: 500px;
+  height: 100%;
+  padding: 50px;
   color: white;
 }
 #projectsTitle {
   text-align: center;
-  margin-top: 30px;
+
   border-bottom: solid 2px white;
 }
 #pr1 {
@@ -108,11 +110,11 @@ body {
   padding: 20px;
   display: inline;
 }
-#pr1text {
+/* #pr1text {
   display: inline;
   position: absolute;
   margin-left: 8px;
-}
+} */
 #pr1Img {
   width: 240px;
   border: 2px solid white;
@@ -124,11 +126,11 @@ body {
   display: inline;
   border-left: 0;
 }
-#pr2text {
+/* #pr2text {
   display: inline;
   position: absolute;
   margin-left: 8px;
-}
+} */
 #pr2Img {
   width: 240px;
   height: 240px;
@@ -138,19 +140,18 @@ body {
   color: white;
 }
 #contact {
-  height: 500px;
+  height: 100%;
 }
 #contactText {
   background-color: white;
-  height: 500px;
+  height: 100%;
 }
 #contactForm {
   background-color: #ddd;
-  height: 500px;
+  height: 100%;
+  padding: 40px;
 }
-#formDiv {
-  margin-top: 60px;
-}
+
 #btnSubmit {
   border: solid 1px #5a5a5a;
 }
@@ -187,12 +188,16 @@ body {
     #2b3171,
     #1c2260
   );
-  height: 80px;
+  height: 100%;
+  padding: 10px;
+  border-top: 2px #3a4183 solid;
+  /* border-top: 1px white solid; */
 }
 #icons {
-  margin-top: 26px;
   text-align: center;
 }
 #i1 {
   padding-right: 10px;
+}
+@media only screen and (max-width: 576px) {
 }
