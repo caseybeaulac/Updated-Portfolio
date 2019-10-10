@@ -136,6 +136,20 @@ body {
   height: 240px;
   border: 2px solid white;
 }
+#pr3 {
+  /* border: white 2px solid; */
+  margin-top: 50px;
+  padding: 20px;
+  display: inline;
+  border-left: 0;
+}
+#pr3Img {
+  width: 240px;
+  height: 240px;
+  border: 2px solid white;
+  background-color: white;
+}
+
 #link {
   color: white;
 }
