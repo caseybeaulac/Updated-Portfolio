@@ -2,6 +2,7 @@ body {
   /* margin: 0; */
   font-family: "Abel", sans-serif;
   width: 100%;
+  font-size: large;
 }
 #nav {
   background-color: white;
@@ -159,6 +160,8 @@ body {
 #contactText {
   background-color: white;
   height: 100%;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
 #contactForm {
   background-color: #ddd;
