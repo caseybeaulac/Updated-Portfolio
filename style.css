@@ -47,7 +47,7 @@ body {
     #1c2260
   );
   width: 100%;
-  height: 500px;
+  height: 400px;
   color: white;
   text-align: center;
 }
@@ -72,6 +72,7 @@ body {
   display: block;
   margin: auto;
   margin-top: 43px;
+  margin-bottom: 43px;
 }
 #aboutTitle {
   color: #5a5a5a;
